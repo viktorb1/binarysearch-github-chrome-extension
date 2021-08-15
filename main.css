@@ -1,0 +1,52 @@
+
+#github-name {
+	margin: 0 0 1rem 0;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border-color: gray solid;
+}
+
+h1 {
+	margin: 0rem;
+	color: white;
+	background: blue;
+	padding: 1rem 1.5rem;
+	text-align: center;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+	font-size: 1rem;
+}
+
+#main-form {
+	padding: 0 1rem 1rem 1rem;
+	border-radius: 1rem 1rem 0 0;
+	background: white;
+}
+
+#colorize {
+	background: blue;
+}
+
+#submit-github {
+	border: none;
+	background: blue;
+	color: white;
+	padding: 1rem 0.5rem;
+	border-radius: 0.5rem;
+}
+
+#submit-github:active {
+	background: darkblue;
+}

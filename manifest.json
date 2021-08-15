@@ -1,0 +1,22 @@
+{
+  "name": "BinarySearch Github Sync",
+  "description": "Sync all of your solutions on binarysearch.com to a repository on github",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+      {
+          "matches": ["https://binarysearch.com/problems/*"],
+          "js": ["content.js"],
+          "run_at": "document_end"
+
+      }
+    ],
+  "action": {
+    "default_popup": "main.html",
+    "default_title": "BinarySearch Github Sync"
+  },
+  "icons": { 
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png" }
+}
